@@ -172,6 +172,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Content Include="Content\Sample.css" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\bundle.server.jsx" />
     <Content Include="Scripts\HelloWorld.jsx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

@@ -19,7 +19,6 @@ namespace Mvc4
 		{
 			bundles.Add(new BabelBundle("~/bundles/main").Include(
 				// Add your JSX files here
-				"~/Scripts/HelloWorld.jsx",
                 "~/Content/Sample.jsx"
             ));
 
