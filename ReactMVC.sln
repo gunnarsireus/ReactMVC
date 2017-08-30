@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc4", "Mvc4\Mvc4.csproj", "{22796879-968A-4C26-9B4B-4C44792B36DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Debug|x64.ActiveCfg = Debug|x64
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Debug|x64.Build.0 = Debug|x64
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Debug|x86.ActiveCfg = Debug|x86
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Debug|x86.Build.0 = Debug|x86
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Release|x64.ActiveCfg = Release|x64
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Release|x64.Build.0 = Release|x64
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Release|x86.ActiveCfg = Release|x86
+		{22796879-968A-4C26-9B4B-4C44792B36DB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B54AE623-07D4-4E7E-9102-AD36F45A7E2D}
+	EndGlobalSection
+EndGlobal
