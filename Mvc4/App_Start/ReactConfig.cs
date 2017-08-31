@@ -20,9 +20,9 @@ namespace Mvc4
             // Browserify or Gulp), you can improve performance by disabling 
             // ReactJS.NET's version of Babel and loading the pre-transpiled 
             // scripts. Example:
-            ReactSiteConfiguration.Configuration
-                .SetLoadBabel(false)
-                .AddScriptWithoutTransform("~/Scripts/bundle.server.jsx");
+            //ReactSiteConfiguration.Configuration
+            //    .SetLoadBabel(false)
+            //    .AddScriptWithoutTransform("~/Scripts/bundle.server.jsx");
 
         }
 	}

@@ -20,9 +20,22 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
     <br/>
-    @Scripts.Render("~/bundles/main")
+    @Html.React("HelloWorld", new
+        {
+            name = "Daniel"
+        })
+
+
+    @*<div id="react1">
+        <div data-reactid=".2aubxk2hwsu" data-react-checksum="-1025167618">
+            <span data-reactid=".2aubxk2hwsu.0">Hello </span>
+            <span data-reactid=".2aubxk2hwsu.1">Daniel</span>
+        </div>
+    </div>*@
+    <br />
+    @*<script src="/Scripts/HelloWorld.jsx"></script>*@
+    @*{/*<script>ReactDOM.render(HelloWorld({ "name": "Daniel" }), document.getElementById("react1"));</script>*/}*@
     <!-- Render the code to initialise the component -->
-    @Html.ReactInitJavaScript()
- 
+    @*@Html.ReactInitJavaScript()*@
 </body>
 </html>
